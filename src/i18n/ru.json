@@ -1,14 +1,14 @@
 {
-	"NOTES_OVERVIEW": "Přehled poznámek",
+	"NOTES_OVERVIEW": "Обзор отмечает",
 	"BUTTON_TEXT_CS": "CS",
 	"BUTTON_TEXT_EN": "EN",	
 	"BUTTON_TEXT_RU": "RU",
-	"NOTE_ID": "Id poznámky",
-	"NOTE_TEXT": "Text poznámky",
-	"ACTIONS": "Akce",
-	"EDIT": "Upravit",
-	"DELETE": "Smazat",
-	"ADD_NOTE": "Přidat poznámku",
-	"ENTER_TEXT": "Vložte text:",
-	"EDIT_NOTE": "Změna poznámky"
+	"NOTE_ID": "Заметка Id",
+	"NOTE_TEXT": "Заметка Текст",
+	"ACTIONS": "действие",
+	"EDIT": "редактировать",
+	"DELETE": "Удалить",
+	"ADD_NOTE": "добавить заметку",
+	"ENTER_TEXT": "введите текст:",
+	"EDIT_NOTE": "редактировать примечание"
 }
