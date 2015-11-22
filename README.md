@@ -1,2 +1,3 @@
-# notesApp
-Notes demo application
+# Notes Application
+AngularJS demo application for managing notes.
+
