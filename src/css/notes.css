@@ -1,0 +1,21 @@
+body {
+  padding-top: 50px;
+}
+.notes-overview { 
+  text-align: left;
+}
+
+.notes-overview td { 
+    padding: 10px;
+}
+.notes-overview th { 
+    padding: 10px;
+}
+
+.action {
+	cursor: pointer;	
+}
+
+.languageBar {
+	margin-top: 10px;
+}

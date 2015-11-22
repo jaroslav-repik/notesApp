@@ -1,0 +1,33 @@
+
+<div class="notes-overview">
+        <h1>{{ 'NOTES_OVERVIEW' | translate }}</h1>
+        <div>
+			<div ng-controller="notesController" ng-init="getNotes()">
+			    <table>
+				    <thead>
+					   <tr>
+							<th>{{ 'NOTE_ID' | translate }}</th><th>{{ 'NOTE_TEXT' | translate }}</th><th>{{ 'ACTIONS' | translate }}</th>
+					   </tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="note in notes">
+							<td>{{note.id}}</td>
+							<td>{{note.title}}</td>
+							<td>
+							   <span class="action" ui-sref=".edit({noteId: note.id})"><a href="#">{{ 'EDIT' | translate }}</a></span>
+							   <br/>
+							   <span class="action"><a href="#" data-ng-click="delete(note.id)">{{ 'DELETE' | translate }}</a></span>
+							</td>
+                        <tr>  						
+					</tbody>
+				</table>
+				<br />
+				<span class="action" ui-sref=".add"><a href="">{{ 'ADD_NOTE' | translate }}</a></span>
+				
+			</div>
+		</div>	
+</div>
+	  
+<div>
+    <div ui-view="" />
+</div>	  

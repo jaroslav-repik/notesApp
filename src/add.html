@@ -1,0 +1,8 @@
+<h2>{{ 'ADD_NOTE' | translate }}</h2>
+<form name="addNoteForm">
+	<label for="addNote">{{ 'ENTER_TEXT' | translate }}</label>
+	<br/>
+	<textarea id="addNote" data-ng-model="note.title"></textarea>
+	<br/>
+	<input id="addNoteSubmitButton" type="button" data-ng-click="add()" value="Submit"/>
+</form>
